@@ -1,0 +1,37 @@
+/* Customizing the dots (buttons) for the carousel */
+.slick-dots li {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.slick-dots li button:before {
+    content: ''; /* Remove the default dot */
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #ff9f1a; /* Bright orange color for all buttons */
+    border-radius: 50%; /* Make the buttons round */
+    opacity: 0.7; /* Inactive buttons slightly transparent */
+    transition: all 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+    background: #ff6a00; /* Darker orange for the active button */
+    opacity: 1; /* Active button fully visible */
+}
+
+/* General slide styles */
+.testimonial-slide {
+    opacity: 0.5; /* Reduce opacity of all slides initially */
+    transform: scale(0.8); /* Smaller size for non-center slides */
+    filter: blur(2px); /* Apply blur to non-center slides */
+    transition: all 0.5s ease; /* Smooth transitions */
+}
+
+/* Style for the center slide */
+.slick-center .testimonial-slide {
+    opacity: 1; /* Full opacity for the center slide */
+    transform: scale(1.1); /* Increase the size of the center slide */
+    filter: blur(0); /* Remove blur for the center slide */
+}
