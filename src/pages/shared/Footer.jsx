@@ -1,4 +1,3 @@
-
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import logo from '../../assets/logo.png'; // Adjust this path as per your file structure
 
@@ -6,17 +5,17 @@ export default function Footer() {
   return (
     <footer className="bg-[#F8F8F8] mt-14 text-center py-6">
       {/* Logo and Navigation */}
-      <div className="flex justify-center items-center space-x-6">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
         <img src={logo} alt="Logo" className="w-12 h-12" />
         <h1 className="text-2xl text-gray-500">
-            {" "}
-            <span className="font-bold text-gray-700">M</span>umair
-          </h1>
+          {" "}
+          <span className="font-bold text-gray-700">M</span>umair
+        </h1>
       </div>
 
       {/* Navigation Links */}
       <nav className="my-4">
-        <ul className="flex justify-center space-x-8 text-[#000000] text-lg">
+        <ul className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 text-[#000000] text-lg">
           <li className="hover:text-gray-600"><a href="#home">Home</a></li>
           <li className="hover:text-gray-600"><a href="#about">About Me</a></li>
           <li className="hover:text-gray-600"><a href="#services">Services</a></li>
@@ -44,11 +43,10 @@ export default function Footer() {
 
       {/* Footer Bottom Text */}
       <div className='bg-[#545454] px-4 py-4 text-center'>
-  <p className="text-white text-sm">
-    © 2023 <span className="text-orange-600 font-bold">Mumair</span> All Rights Reserved, INC.
-  </p>
-</div>
-
+        <p className="text-white text-sm">
+          © 2023 <span className="text-orange-600 font-bold">Mumair</span><br />All Rights Reserved, INC.
+        </p>
+      </div>
     </footer>
   );
 }
