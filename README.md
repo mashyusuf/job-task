@@ -5,7 +5,7 @@ I recently completed a frontend development task assigned by Potential Inc. as p
 
 
 
-🔗 Live Demo
+🔗 Live Demo : https://myportfolio-taupe-six.vercel.app/
 
 
 Check out the live version of the project by clicking the link above!
