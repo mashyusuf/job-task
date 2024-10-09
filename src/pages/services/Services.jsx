@@ -29,7 +29,7 @@ export default function Services() {
   ];
 
   return (
-    <div className=" py-12">
+    <div className=" py-12 bg-white">
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
         <p className="text-lg text-gray-600">

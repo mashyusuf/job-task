@@ -4,7 +4,7 @@ import rectangleImage from '../../assets/Rectangle 4.png'; // Path to the rectan
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between p-6 ">
+    <div className="flex flex-col md:flex-row items-center justify-between p-6 bg-white">
       {/* About Me Text and Sliders */}
       <div className="ml-0 md:ml-8 flex flex-col justify-center mb-6 md:mb-0 md:order-2">
         <h2 className="text-4xl  text-[#000000] font-bold">About Me</h2>

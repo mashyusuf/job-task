@@ -13,7 +13,7 @@ import Footer from './pages/shared/Footer';
 function App() {
   return (
     <Router>
-      <div className="container mx-auto
+      <div className="container mx-auto bg-white
       ">
         <Navbar />
         <main>

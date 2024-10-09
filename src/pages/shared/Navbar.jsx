@@ -16,7 +16,7 @@ export default function Navbar() {
         </>
       
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-white">
       {/* Navbar start section */}
       <div className="navbar-start">
         {/* Dropdown for smaller screens */}
